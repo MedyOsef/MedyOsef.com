@@ -1,0 +1,22 @@
+.header {
+    height: 200px;
+}
+
+.header-navbar {
+    height: 0px
+}
+
+.header-article .header-texture {
+    background: url(../assets/Images/alex-ghizila-vUjJztdX4H0-unsplash.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.header.header-article {
+    height: 200px;
+}
+
+.insert-post-contenaire{
+    background-color: red;
+    width: 100%;
+    height: auto
+}
