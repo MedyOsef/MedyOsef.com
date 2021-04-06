@@ -1,22 +1,83 @@
-.header {
-    height: 200px;
+/* Barre de navigation */
+body{
+    font-family: 'Helvetica',
+    Arial,
+    sans-serif;
+    background-color: #282C34;
+    color: #fff;
+}
+a{
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #323234;
+    color: #fff;
+}
+nav h2{
+    font-size: 30px;
+}
+.detail {
+    padding-top: 8px;
+}
+.post-btn,
+.second-option {
+    padding: 8px 10px;
+    border: none;
+    background-color: #ff7000;
+    border-radius: 4px;
+}
+.second-option{
+    background-color: #31A8FF;
+    
+}
+.second-option:nth-child(2){
+    margin-left: 60px;
+}
+.form-insert-post{
+    display: flex;
+    flex-direction: row;
+}
+.form-textarea-contenaire{
+    padding: 5px 25px;
+    width: 75%;
+}
+.form-textarea{
+    border-radius: 3px;
+    border: rgba(7, 7, 7, .2) solid 1px;
+}
+.form-options{
+    width: 25%;
+}
+.form-category {
+    margin: 5px 10px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.form-category .form-category-label {
+    margin: 5px 50px;
+}
+.form-category div{
+    margin: 0 auto;
 }
 
-.header-navbar {
-    height: 0px
+.form-category label{
+    margin-right: 10px;
+    margin-left: 5px;
 }
 
-.header-article .header-texture {
-    background: url(../assets/Images/alex-ghizila-vUjJztdX4H0-unsplash.jpg) center no-repeat;
-    background-size: cover;
+.form-infos{
+    margin: 10px;
+    padding: 10px 0;
+    background-color: #ff7000;
+    display: flex;
+    flex-direction: column;
 }
-
-.header.header-article {
-    height: 200px;
-}
-
-.insert-post-contenaire{
+.form-line{
+    margin: 0 auto;
     background-color: red;
-    width: 100%;
-    height: auto
 }
+/* Fin de la barre de navigation */
