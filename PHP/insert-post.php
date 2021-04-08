@@ -20,14 +20,39 @@
 <body>
 
     <nav>
-        <a href="" class="post-btn">Publier</a>
-        <h2>Inserer un Poste</h2>
-        <div class="detail">
-            <a href="" class="second-option">Appercu</a>
-            <a href="" class="second-option">Voir le site</a>
+        <div>
+            <a class="return" href=""><i class="fas fa-arrow-left"></i></a>
+            <a href="" class="logo">MedyOsef</a>
         </div>
     </nav>
+    <div class="insert-post-contenaire">
+        <div class="post-editor">
+            <input class="title" type="text" name="title" placeholder="Titre">
+            <div class="editor-customizer">
 
+            </div>
+            <div class="textarea-contenaire">
+                <textarea class="textarea" name="" cols="95" rows="31"></textarea>
+            </div>
+        </div>
+
+        <div class="post-settings">
+            <div class="action-buttons">
+                <a class="action-button see" href="">Aperçu</a>
+                <a class="action-button send" href="">Publier</a>
+            </div>
+            <h3>Paramètres des articles</h3>
+            <div class="settings">
+                <a href="">Categorie</a>
+                <hr>
+                <a href="">Libellés</a>
+                <hr>
+                <a href="">Date de publication</a>
+                <hr>
+            </div>
+        </div>
+
+    </div>
 </body>
 
 </html>

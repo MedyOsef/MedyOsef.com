@@ -74,7 +74,6 @@ a{
 }
 .header-nav-bar-logo-title:hover{
     color: rgba(235, 230, 230, .9);
-
     animation: logo-glich 1s;
 }
 .header-nav-bar-logo-title span{
