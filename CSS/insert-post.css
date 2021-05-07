@@ -136,7 +136,7 @@ nav {
   transition: all 0.4s ease-in-out;
 }
 .send:hover {
-  background-color: var(--green;
+  background-color: var(--green);
 }
 .see:hover {
   border-color: rgba(81, 207, 102, 0.4);

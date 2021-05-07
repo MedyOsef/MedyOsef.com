@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
+<?php
+    foreach($_POST as $key=>$val)
+        ${$key} = $val;
+        
+    echo $title." ". $dateOfThePublication;
+?>
 
 <head>
     <meta charset="UTF-8">
@@ -26,49 +32,51 @@
             <a href="" class="logo">MedyOsef</a>
         </div>
     </nav>
-    <div class="insert-post-contenaire">
-        <div class="post-editor">
-            <input class="title" type="text" name="title" placeholder="Titre">
-            <!-- <div class="editor-customizer"></div> -->
-            <div class="textarea-contenaire">
-                <textarea id="editor" class="text-editor" name="" rows="30"></textarea>
-            </div>
-        </div>
-
-        <div class="post-settings">
-            <div class="action-buttons">
-                <a class="action-button see" href="">Aperçu</a>
-                <a class="action-button send" href="">Publier</a>
-            </div>
-            <h3>Paramètres des articles</h3>
-            <div class="settings">
-                    <input id="tag" type="text" name="tag" placeholder="Libellés">
-    
-                    <h4 class="date-title">Date de publication</h4>
-                    <input id="date-of-the-publication" type="date" name="date-of-the-publication">
-                    
-                    <h4 class="category-title">Catégorie</h4>
-                    <div class="category">
-                        <div>
-                            <input type="radio" id="category-checkbox" name="radio" value="CTF" checked>
-                            <label for="CTF">CTF</label>
-                        </div>
-
-                        <div>
-                            <input type="radio" id="category-checkbox" name="radio" value="Tutorial" checked>
-                            <label for="Tutorial">Tutoriel</label>
-                        </div>
-                                            
-                        <div>
-                            <input type="radio" id="category-checkbox" name="radio" value="Project" checked>
-                            <label for="Project">Projet</label>
-                        </div>
+    <form action="" method="post">
+            <div class="insert-post-contenaire">
+                <div class="post-editor">
+                    <input class="title" type="text" name="title" placeholder="Titre">
+                    <!-- <div class="editor-customizer"></div> -->
+                    <div class="textarea-contenaire">
+                        <textarea id="editor" class="text-editor" name="" rows="30"></textarea>
                     </div>
-                    <hr>
-                        
+                </div>
+
+                <div class="post-settings">
+                            <div class="action-buttons">
+                                <a class="action-button see" href="">Aperçu</a>
+                                <input class="action-button send"  type="submit" value="Publier">
+                            </div>
+                            <h3>Paramètres des articles</h3>
+                        <div class="settings">
+                                <input id="tag" type="text" name="tag" placeholder="Libellés">
+                    
+                                <h4 class="date-title">Date de publication</h4>
+                                <input id="date-of-the-publication" type="date" name="dateOfThePublication">
+                                    
+                                <h4 class="category-title">Catégorie</h4>
+                                <div class="category">
+                                    <div>
+                                        <input type="radio" id="category-checkbox" name="category" value="ctf" checked>
+                                        <label for="ctf">CTF</label>
+                                    </div>
+
+                                    <div>
+                                        <input type="radio" id="category-checkbox" name="category" value="tutorial" checked>
+                                        <label for="tutorial">Tutoriel</label>
+                                    </div>
+                                                            
+                                    <div>
+                                        <input type="radio" id="category-checkbox" name="category" value="project" checked>
+                                        <label for="project">Projet</label>
+                                    </div>
+                                 </div>
+                                <hr>
+                                        
+                        </div>
+                </div>
             </div>
-        </div>
-    </div>
+    </form>
     <script src="../JS/tinymce.js"></script>
 </body>
 

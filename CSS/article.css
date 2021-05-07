@@ -20,10 +20,10 @@ a {
 .article img {
   width: 100%;
   height: 200px;
-  transition: all 1.2s ease-in-out;
+  transition: all 5s ease-in-out;
 }
 .article:hover img {
-  transform: scale(1.2) rotateZ(5deg);
+  transform: scale(1.4) rotateZ(11deg);
 }
 .article .content {
   padding: 20px 30px;
