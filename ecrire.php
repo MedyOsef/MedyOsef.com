@@ -6,22 +6,21 @@
 <body>
 <style>
 body {
-    color: gold;
-    background-color: black;
+    color: #fca311;
+    background-color: #14213d;
 }
 </style>
-    <?php
-        $my_file = fopen('compteur.txt', 'r+');
-        $page_view = fgets($my_file);
-
-        $page_view += 1;
-        fseek($my_file, 0);
-        fputs('$my_flie', (string)$page_view);
-        var_dump($page_view);
-        
-        fclose($my_file);
-        
-        echo "<p>Cette page à été vue ' . $page_view . ' fois !</p>";
-    ?>
+<?php
+$monfichier = fopen('compteur.txt', 'r+');
+ 
+$pages_vues = fgets($monfichier); // On lit la première ligne (nombre de pages vues)
+$pages_vues += 1; // On augmente de 1 ce nombre de pages vues
+fseek($monfichier, 0); // On remet le curseur au début du fichier
+fputs($monfichier, $pages_vues); // On écrit le nouveau nombre de pages vues
+ 
+fclose($monfichier);
+ 
+echo '<p>Cette page a été vue ' . $pages_vues . ' fois !</p>';
+?>
 </body>
 </html>

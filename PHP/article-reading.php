@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="../CSS/responsive-header.css">
     <link rel="stylesheet" href="../CSS/article-view.css">
     <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/responsive-article.css">
     <title>MedyOsef</title>
 </head>
 
@@ -70,46 +71,48 @@
 
         <div class="last-articles">
             <h4 class="last-title">Dernier</h4>
-
-            <div class="last-background">
-                <a href="">
-                    <div class="last">
-                        <img src="../assets/Images/metasploit-image.jpg" alt=" ">
-                        <h4 class="last-category-name">Tutoriel</h4>
-                        <h3 class="last-description">Comment prendre le controle d'un système avec Metasploit</h3>
+            <div class="test">
+                    <div class="last-background">
+                        <a href="">
+                            <div class="last">
+                                <img src="../assets/Images/metasploit-image.jpg" alt=" ">
+                                <h4 class="last-category-name">Tutoriel</h4>
+                                <h3 class="last-description">Comment prendre le controle d'un système avec Metasploit</h3>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
 
-            <div class="last-background">
-                <a href="">
-                    <div class="last">
-                        <img src="../assets/Images/tuto-2.jpg" alt=" ">
-                        <h4 class="last-category-name">Tutoriel</h4>
-                        <h3 class="last-description">Comment s'infiltre dans un system</h3>
+                    <div class="last-background">
+                        <a href="">
+                            <div class="last">
+                                <img src="../assets/Images/tuto-2.jpg" alt=" ">
+                                <h4 class="last-category-name">Tutoriel</h4>
+                                <h3 class="last-description">Comment s'infiltre dans un system</h3>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
 
-            <div class="last-background">
-                <a href="">
-                    <div class="last">
-                        <img src="../assets/Images/tuto-3.jpg" alt=" ">
-                        <h4 class="last-category-name">Tutoriel</h4>
-                        <h3 class="last-description">Comment avoir de la motivation</h3>
+                    <div class="last-background">
+                        <a href="">
+                            <div class="last">
+                                <img src="../assets/Images/tuto-3.jpg" alt=" ">
+                                <h4 class="last-category-name">Tutoriel</h4>
+                                <h3 class="last-description">Comment avoir de la motivation</h3>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
 
-            <div class="last-background">
-                <a href="">
-                    <div class="last">
-                        <img src="../assets/Images/screen_2x.jpg" alt=" ">
-                        <h4 class="last-category-name">Tutoriel</h4>
-                        <h3 class="last-description">Comment explore le code d'un site web</h3>
+                    <div class="last-background">
+                        <a href="">
+                            <div class="last">
+                                <img src="../assets/Images/screen_2x.jpg" alt=" ">
+                                <h4 class="last-category-name">Tutoriel</h4>
+                                <h3 class="last-description">Comment explore le code d'un site web</h3>
+                            </div>
+                        </a>
                     </div>
-                </a>
             </div>
+            
             <a href="http://www.dfdfdfdf.com" class="see-all">Voir Tous</a>
         </div>
     </div>

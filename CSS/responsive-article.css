@@ -9,3 +9,29 @@
         margin-right: 15px;
     }
 }
+
+@media only screen and (max-width: 670px){
+    .principale{flex-direction: column;}
+    .article-view-container{
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #51cf66;
+        
+    }
+    .test{
+        display: flex;
+        flex-direction: row;
+    }
+    .last-articles{
+        margin: auto;
+  width: 100%;
+  border: 3px solid green;
+  padding: 10px;
+    }
+    /*.last-title{
+        margin: auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 10px;
+    }*/
+}
