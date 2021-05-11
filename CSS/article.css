@@ -96,6 +96,7 @@ a {
 }
 .center{
   text-align: center;
+  padding: 15px 0;
 }
 
 .pagination a {

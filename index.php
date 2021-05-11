@@ -66,7 +66,6 @@
                             <a href="" class="tag">TryHackMe</a>
                             <a href="" class="tag">JavaScript</a>
                             <a href="" class="tag">Daffy</a>
-
                         </div>
                     </a>
                 </div>

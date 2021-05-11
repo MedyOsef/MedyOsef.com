@@ -34,11 +34,12 @@
 }
 .footer-high{
     width: 100%;
-    height: 230px;
+    height: auto;
     background-color: #51cf66;
     color: aliceblue;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .about-us h5, .follow-us h5{
@@ -51,12 +52,11 @@
 }
 .about-us pre{
     font-size: 15px;
+    margin-bottom: 10px;
 }
+.follow-us{margin-bottom: 30px;}
 
-.follow-us h5{
-    /*padding-left: 50px;*/
-    text-align: center;
-}
+.follow-us h5{text-align: center;}
 .social-media{
     display: flex;
     flex-direction: row;
@@ -72,17 +72,26 @@
 .social-media a:nth-child(2){
     padding-right: 13px;
     padding-left: 13px;
-    
 }
 .footer-low p{
     text-align: center;
     line-height: 70px;
 }
 
-.social-media a i{
-    transition: all .1s ease-in-out;
-}
+.social-media a i{transition: all .1s ease-in-out;}
 
-.social-media a i:hover{
-    animation: logo-glich .4s infinite;
+.social-media a i:hover{animation: logo-glich .4s infinite;}
+
+/******** footer responsive *********/
+@media only screen and (max-width: 678px){
+    .footer-high{
+        background-color: #d62828;
+    }
+    .about-us pre{
+        margin-bottom: -8px;
+        font-size: 13px;
+    }
+    .footer-low p{
+        font-size: 13px;
+    }
 }

@@ -71,7 +71,7 @@
 
         <div class="last-articles">
             <h4 class="last-title">Dernier</h4>
-            <div class="test">
+            <div class="last-article-contenaire">
                     <div class="last-background">
                         <a href="">
                             <div class="last">
