@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "TeslaFont";
+  src: url(../assets/TESLA.ttf);
+}
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+@keyframes logo-glich {
+  0% {
+    text-shadow: 4px 3px rgb(244, 67, 54), -3px -4px rgb(33, 150, 243);
+  }
+
+  25% {
+    text-shadow: -4px -5px rgb(244, 67, 54), 4px 2px rgb(33, 150, 243);
+  }
+
+  50% {
+    text-shadow: 4px 3px rgb(244, 67, 54), -6px -2px rgb(33, 150, 243);
+  }
+
+  75% {
+    text-shadow: -7px -3px rgb(244, 67, 54), -4px -3px rgb(33, 150, 243);
+  }
+
+  100% {
+    text-shadow: -4px 0 rgb(244, 67, 54), 4px -3px rgb(33, 150, 243);
+  }
+}
+
+a {
+  color: var(--white-pure-color);
+}
+.header {
+  height: 450px;
+  width: 100%;
+  background: rgb(38, 35, 58);
+  position: relative;
+}
+.header-other-page {
+  height: 350px;
+}
+
+.header-other-page .header-slogan {
+  margin-top: 10px;
+}
+.header-texture {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../assets/Images/CSS-Border-featured.jpg) center no-repeat;
+  background-size: cover;
+  z-index: 1;
+  opacity: 0.7;
+}
+.header-navbar {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+.header-nav-bar-logo-title {
+  color: var(--white-pure-color);
+  font-size: 28px;
+  font-family: "TeslaFont", "Helvetica", Arial, sans-serif;
+  transition: all 0.3s;
+}
+.header-nav-bar-logo-title:hover {
+  color: rgba(235, 230, 230, 0.9);
+  animation: logo-glich 1s;
+}
+.header-nav-bar-logo-title span {
+  font-family: TeslaFont;
+}
+.hearder-navbar-menu-link {
+  position: relative;
+  margin-left: 30px;
+  color: var(--white-lite-color);
+  font-weight: bold;
+  text-decoration: none;
+  font-family: "Nunito", "Helvetica", Arial, sans-serif;
+  padding: 4px 0;
+  transition: 0.5s;
+}
+
+.hearder-navbar-menu-link::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background-color: var(--gree-dusky-color);
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+.hearder-navbar-menu-link:hover {
+  color: var(--gree-dusky-color);
+}
+.hearder-navbar-menu-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.header-slogan {
+  text-align: center;
+  margin-top: 60px;
+  font-family: "Nunito", "Helvetica", Arial, sans-serif;
+}
+.header-slogan-title {
+  color: var(--white-pure-color);
+  font-size: 40px;
+  font-family: "Syne Mono", Arial, sans-serif, monospace;
+  letter-spacing: 1px;
+  margin-bottom: 55px;
+}
+
+/***********  button search *************/
+.search-bar-contenaire {
+  width: 310px;
+  position: relative;
+  display: flex;
+  box-shadow: #282c34 1px 1px 1px;
+}
+
+.searchTerm {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  height: 30px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: var(--gree-dusky-color);
+}
+
+.searchTerm:focus {
+  color: var(--gree-dusky-color);
+}
+
+.searchButton {
+  width: 40px;
+  height: 30px;
+  border: 1px solid var(--gree-dusky-color);
+  background-color: var(--gree-dusky-color);
+  text-align: center;
+  color: var(--white-pure-color);
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 1s;
+}
+
+.searchButton:hover {
+  color: rgba(19, 19, 19, 0.4);
+}
+
+a svg {
+  transition: all 0.5s;
+}
+a svg:hover {
+  fill: rgba(255, 112, 0, 0.7);
+}

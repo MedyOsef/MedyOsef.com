@@ -1,0 +1,136 @@
+*{
+  scroll-behavior: smooth;
+}
+body{
+  background: var(--body-background);
+  transition: all .3s linear;
+}
+a {
+  text-decoration: none;
+}
+.articles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  width: 100%;
+  background-color: var(--body-background);
+  height: auto;
+}
+.article {
+  margin: 10px;
+  width: 328px;
+  border-radius: 5px;
+  background-color: var(--article-box-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--article-box-color);
+}
+.article img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+  
+}
+.article:hover img {
+  transform: scale(1.3) rotateZ(11deg);
+  transition: all 5s ease-in-out;
+}
+.article:hover{
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  transition: all .3s ease-in-out;
+}
+.article .content {
+  padding: 20px 30px;
+  height: 210px;
+  border-radius: 0 0 4px 4px;
+}
+.article .content p {
+  font-weight: 200;
+  min-height: 70px;
+  margin-top: 2px;
+  font-size: 17.5px;
+  color: var(--text-color);
+  font-family: 'Poppins',
+  sans-serif;
+}
+.article .content h2 a {
+  font-size: 20px;
+  color: var(--text-color);
+  font-weight: 500;
+}
+.article .content h2 a:hover {
+  animation: logo-glich 0.5s;
+}
+.article .content h2 {
+  margin-bottom: 3px;
+  color: var(--text-color);
+}
+.article .content span {
+  font-size: 12px;
+  color: #9dafae;
+}
+.image {
+  position: relative;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+  /*background-color: #e4e4e4;*/
+}
+.tags {
+  position: absolute;
+  top: 0.2rem;
+  left: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tag {
+  font-size: small;
+  background-color: var(--gree-dusky-color);
+  padding: 4px 7px;
+  border-radius: 4px;
+  margin-right: 8px;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.05);
+  transition: all 0.5s;
+  margin-top: 0.8rem;
+}
+.tag:hover {
+  background-color: #fff;
+  color: var(--gree-dusky-color);
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/***************** Pagination ************************/
+.pagination {
+  display: inline-block;
+  background-color: var(--body-background);
+}
+.center{
+  text-align: center;
+  padding: 15px 0;
+  background-color: var(--body-background);
+}
+
+.pagination a {
+  color: var(--text-color);
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 0px 2px;
+  transition: all .5s;
+}
+
+.pagination a.active {
+  background-color: var(--gree-dusky-color);
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: var(--pagination-items-color);
+  border-radius: 5px;
+}
