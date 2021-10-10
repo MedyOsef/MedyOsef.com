@@ -25,7 +25,7 @@
         <div class="header-navbar-toggle">
             <span class="header-navbar-toggle-icons">
                 <div class="header-slogan">
-                    <p class="header-slogan-title">N'arrêter jamais d'apprendre</p>
+                    <p class="header-slogan-title">N'arrêtez jamais d'apprendre</p>
                     <a href="./PHP/contact-me.php" class="btn">📞Contactez-moi</a>
                 </div>
             </span>

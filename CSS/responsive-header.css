@@ -24,7 +24,7 @@
 
 @media only screen and (max-width: 670px){
     .header-slogan-title{font-size: 20px}
-    .container{
+    .header-container{
         width: 100%;
         padding: 0 20px;
     }

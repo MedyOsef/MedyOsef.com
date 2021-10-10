@@ -45,7 +45,6 @@
     border-radius: 3px;
 }
 .article-view-content{
-    /*padding-top: 20px;*/
     text-align: justify;
     font-weight: 200;
     padding-bottom: 30px;
@@ -64,12 +63,23 @@
     flex-direction: column;
     background-color: var(--body-background);
 }
-
+.last-article-contenaire{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin: 20px;
+}
 .last-articles{
     background-color: #faf9f9;
     border-top: solid 1px rgba(51, 51, 51, .1);
 }
-
+.last-article-globe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
 .last-title {
     text-align: center;
     font-family: 'Nunito',
@@ -100,6 +110,3 @@
 #btnScrollToTop:active{background-color: var(--gree-dusky-color)}
 
 /*****************************************/
-.article .content {
-  height: 165px;
-}

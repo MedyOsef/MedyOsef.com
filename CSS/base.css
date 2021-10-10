@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
 /* :root{
     --blue-lite-color:#3498db;
     --green-lite-color:#9aca56;
@@ -27,16 +28,18 @@ html {
     --white-lite-color: aliceblue;
     --dark-lite-letter-color: #3b3b3b;
     --dark-footer-color: #252526;
+    --dark-footer-high: #14141F;
     --smouse-orange-color: #ff7000;
     --grey-lite-color: #59595a;
     --white-pure-color: #fff;
     --black-pure-color: #000;
     --black-smouse-color: #323234;
     --white-sm: #f5f5f5;
+    --white: #fff;
     --generate-color: #ccc8c8;
 
     --body-background: #1f1f2e;
-    --text-color: #d9dcdf;
+    --text-color: #f0f0f0;
     --article-box-color: #29293d;
     --pagination-items-color: #33333d;
 }

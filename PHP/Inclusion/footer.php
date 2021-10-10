@@ -21,8 +21,18 @@ utiliser à mauvais escient.
                 </div>
         </div>
 
+        <div class="newsletter-inscription-contenaire">
+                <h5>Inscris-toi à la newsletter</h5>
+                <p>Si vous voulez être mis au courant quand il y a du nouveau</p>
+                <form action="">
+                        <input type="text" placeholder="Prénom ...">
+                        <input type="text" placeholder="mark@zuckerberg.com">
+                        <button type="submit" class="btn-addToNewletter">S'abonné</button>
+                </form>
+
+        </div>
+
 </footer>
 <footer class="footer-low">
         <p>&copy Copyright MedyOsef 2021</p>
-        <button id=btnScrollToTop><i class="fas fa-arrow-up"></i></button>
 </footer>

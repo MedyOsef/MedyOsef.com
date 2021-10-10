@@ -27,8 +27,8 @@
 
 .footer-high{
     width: 100%;
-    height: 220px;
-    background-color: var(--gree-dusky-color);
+    height: 240px;
+    background-color: var(--dark-footer-high);
     color: var(--white-lite-color);
     display: flex;
     justify-content: space-around;
@@ -41,7 +41,7 @@
     background-color: #252526;
     color: var(--white-lite-color);
 }
-.about-us h5, .follow-us h5{
+footer h5 {
     font-size: 16.5px;
     font-weight: 700;
     text-transform: uppercase;
@@ -76,7 +76,33 @@
     text-align: center;
     line-height: 70px;
 }
+.newsletter-inscription-contenaire{
+    display: flex;
+    flex-direction: column;
+    background-color:red;
+    width: 310px;
+}
+.newsletter-inscription-contenaire form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+}
+.newsletter-inscription-contenaire form input{
+    margin-bottom: 10px;
+    font-size:16.5px;
+    padding: 5px 10px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
 
+}
+.newsletter-inscription-contenaire form button{
+    height: 38px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
 .social-media a i{transition: all .1s ease-in-out;}
 
 .social-media a i:hover{animation: logo-glich .4s infinite;}

@@ -84,6 +84,12 @@ a {
   padding: 4px 0;
   transition: 0.5s;
 }
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 .hearder-navbar-menu-link::after {
   position: absolute;

@@ -72,78 +72,75 @@
 
         <div class="last-articles">
             <h4 class="last-title">Dernier</h4>
-            <div class="last-article-contenaire">
-            <!--Medy-last-article-NEW-NEW-NEW-NEW-NEW-------------------------------------->
 
-            <div class="container">
+            <div class="last-article-globe">
+                <div class="last-article-contenaire">
+                    <a class="article"  href="">
+                        <div class="image">
+                            <img src="../assets/Images/windows-11-wallpaper-1480x925.jpeg" alt="Image titre de l'article">
+                            <ul class="tags">
+                                <li class="tag">jhon the ripper</li>
+                                <li class="tag">tag</li>
+                                <li class="tag">tag</li>
+                            </ul>
+                        </div>
+                        <div class="content">
+                            <h2 class="article-title">Comment installer Windows 11</h2>
+                            <p>It is a long established fact that a reader will be distracted by the readable
+                                content of a page when looking at its layout. The point of</p>
+                            <div class="article-supplementary-information">
+                                <span class="article-publishing-date">03 Fevrier 2020</span>
+                                <span class="article-reading-time"> 12 minutes</span>
+                            </div>
+                        </div>
+                    </a>
 
-                <div class="article">
-                      <div class="image">
-                          <a href="#">
-                              <img src="../assets/Images/tuto-1.jpg" alt="">
-                              <div class="tags">
-                                  <a href="" class="tag">pentesting</a>
-                                  <a href="" class="tag">kali</a>
-                                  <a href="" class="tag">tag</a>
-                              </div>
-                          </a>
-                      </div>
-                      <div class="content">
-                          <h2 class="article-title"><a href="PHP/article-reading.php">Comment prendre le controle d'un système avec Metasploit</a></h2>
-                          <span>03 Fevrier 2020</span>
-                          <p>It is a long established fact that a reader will be distracted by the
-                              readable content of a page when looking at its layout. The point of.</p>
-                      </div>
-                  </div>
+                    <a class="article"  href="">
+                        <div class="image">
+                                <img src="../assets/Images/python-pro.jpg" alt="Image titre de l'article">
+                                <ul class="tags">
+                                    <li class="tag">jhon the ripper</li>
+                                    <li class="tag">tag</li>
+                                    <li class="tag">tag</li>
+                                </ul>
+                        </div>
+                        <div class="content">
+                            <h2 class="article-title">Bien travailler et vite c'est un teste</h2>
+                            <p>It is a long established fact that a reader will be distracted by the readable
+                                content of a page when looking at its layout. The point of</p>
+                            <div class="article-supplementary-information">
+                                <span class="article-publishing-date">03 Fevrier 2020</span>
+                                <span class="article-reading-time"> 12 minutes</span>
+                            </div>
+                        </div>
+                    </a>
 
-                  <div class="article">
-                      <div class="image">
-                          <a href="">
-                              <img src="../assets/Images/tuto-2.jpg" alt=" ">
-                              <div class="tags">
-                                  <a href="" class="tag">lili</a>
-                                  <a href="" class="tag">jhon the ripper</a>
-                                  <a href="" class="tag">Kali Vs ParrotOS</a>
-                                  <a href="" class="tag">Revers TCP</a>
-                                  <a href="" class="tag">lili</a>
-                                  <a href="" class="tag">Kali Vs ParrotOS</a>
-                                  <a href="" class="tag">TryHackMe</a>
-                                  <a href="" class="tag">JavaScript</a>
-                                  <a href="" class="tag">Daffy</a>
-                              </div>
-                          </a>
-                      </div>
-                      <div class="content">
-                          <h2 class="article-title"><a href="">Comment s'infiltre dans un system</a></h2>
-                          <span>03 Fevrier 2020</span>
-                          <p>It is a long established fact that a reader will be distracted by the
-                              readable content of a page when looking at its layout. The point of</p>
-                      </div>
-                  </div>
+                    <a class="article"  href="">
+                        <div class="image">
+                                <img src="../assets/Images/laptop1.svg" alt="Image titre de l'article">
+                                <ul class="tags">
+                                    <li class="tag">jhon the ripper</li>
+                                    <li class="tag">tag</li>
+                                    <li class="tag">tag</li>
+                                </ul>
+                        </div>
+                        <div class="content">
+                            <h2 class="article-title">Bien travailler et vite c'est un teste</h2>
+                            <p>It is a long established fact that a reader will be distracted by the readable
+                                content of a page when looking at its layout. The point of</p>
+                            <div class="article-supplementary-information">
+                                <span class="article-publishing-date">03 Fevrier 2020</span>
+                                <span class="article-reading-time"> 12 minutes</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
 
-                  <div class="article">
-                      <div class="image">
-                          <a href="">
-                              <!--img src="https://blog.tryhackme.com/content/images/size/w2000/2019/12/metasploit-basic-commands.jpg" alt="Tesla-model-x"-->
-                              <img src="../assets/Images/metasploit-image.jpg" alt=" ">
-                              <div class="tags">
-                                  <a href="" class="tag">tag</a>
-                                  <a href="" class="tag">tag</a>
-                              </div>
-                          </a>
-                      </div>
-                      <div class="content">
-                          <h2 class="article-title"><a href="">Comment avoir de la motivation</a></h2>
-                          <span>03 Fevrier 2020</span>
-                          <p>It is a long established fact that a reader will be distracted by the
-                              readable content of a page when looking at its layout. The point of</p>
-                      </div>
-                  </div>
-              </div>
-          </div>
           <a href="#" class="see-all">Voir Tous</a>
         </div>
     </div>
+    <button id=btnScrollToTop><i class="fas fa-arrow-up"></i></button>
     <?php include("Inclusion/footer.php"); ?>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="../JS/app.js"></script>
