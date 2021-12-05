@@ -9,6 +9,7 @@ Ce que vous apprendre ici et partout dans votre
 apprentissage de du hacking ne doit en aucun cas
 utiliser à mauvais escient.
 </pre>
+<a class="bug-signale" href="">Signaler un bug ou une vulnerabilité</a>
         </div>
 
         <div class="follow-us">
@@ -23,10 +24,10 @@ utiliser à mauvais escient.
 
         <div class="newsletter-inscription-contenaire">
                 <h5>Inscris-toi à la newsletter</h5>
-                <p>Si vous voulez être mis au courant quand il y a du nouveau</p>
+                <p>Si vous voulez être mis au courant quand il y a du nouveau sur la sécurité et le dévéloppement</p>
                 <form action="">
                         <input type="text" placeholder="Prénom ...">
-                        <input type="text" placeholder="mark@zuckerberg.com">
+                        <input type="email" placeholder="mark@zuckerberg.com">
                         <button type="submit" class="btn-addToNewletter">S'abonné</button>
                 </form>
 

@@ -5,7 +5,7 @@ if (!$_SESSION['connected']){
 }
     /* foreach($_POST as $key=>$val) */
         /* ${$key} = $val; */
-        
+
     /* echo $title." ". $dateOfThePublication." ".$li." ".$category." ".$tags; */
 ?>
 <!DOCTYPE html>
@@ -26,6 +26,7 @@ if (!$_SESSION['connected']){
     <link rel="stylesheet" href="../CSS/footer.css">
     <link rel="stylesheet" href="../CSS/insert-post.css">
     <link rel="stylesheet" href="../CSS/base.css">
+    <link rel="icon" type="image/png" href="../assets/Logos/logomedy.png">
     <title>Insert Post</title>
 </head>
 
@@ -41,7 +42,10 @@ if (!$_SESSION['connected']){
     <form action="" method="post">
             <div class="insert-post-contenaire">
                 <div class="post-editor">
-                    <input class="title" type="text" name="title" placeholder="Titre">
+                    <div class="input-contenaire">
+                        <input class="title" type="text" name="title" placeholder="Titre">
+                        
+                    </div>
                     <div class="textarea-contenaire">
                         <textarea id="editor" class="text-editor" name="" rows="30"></textarea>
                     </div>
@@ -52,37 +56,49 @@ if (!$_SESSION['connected']){
                                 <a class="action-button see" href="">Aperçu</a>
                                 <input class="action-button send"  type="submit" value="Publier">
                             </div>
-                            
+
                         <div class="settings">
                                 <h3>Paramètres de l'articles</h3>
                                 <input id="tags" type="text" name="tags" placeholder="Libellés">
-                    
+
                                 <h4 class="date-title">Date de publication</h4>
                                 <input id="date-of-the-publication" type="date" name="dateOfThePublication">
                                 <h4 class="category-title">Catégorie</h4>
                                 <div class="category">
-                                    <div>
-                                        <input type="radio" id="category-checkbox" name="category" value="ctf" checked>
-                                        <label for="ctf">CTF</label>
+
+                                    <div class="category-left">
+                                        <div class="category-left-children">
+                                            <input type="radio" id="category-checkbox" name="category" value="ctf" checked>
+                                            <label for="ctf">CTF</label>
+                                        </div>
+
+                                        <div class="category-left-children">
+                                            <input type="radio" id="category-checkbox" name="category" value="tutorial" checked>
+                                            <label for="tutorial">Tutoriel</label>
+                                        </div>
                                     </div>
 
-                                    <div>
-                                        <input type="radio" id="category-checkbox" name="category" value="tutorial" checked>
-                                        <label for="tutorial">Tutoriel</label>
-                                    </div>
-                                                            
-                                    <div>
-                                        <input type="radio" id="category-checkbox" name="category" value="project" checked>
-                                        <label for="project">Projet</label>
+                                    <div class="category-right">
+                                        <div class="category-right-children">
+                                            <input type="radio" id="category-checkbox" name="category" value="project" checked>
+                                            <label for="project">Projet</label>
+                                        </div>
+
+                                        <div class="category-right-children">
+                                            <input type="radio" id="category-checkbox" name="category" value="project" checked>
+                                            <label for="project">Info</label>
+                                        </div>
                                     </div>
 
-                                    <div>
-                                        <input type="radio" id="category-checkbox" name="category" value="project" checked>
-                                        <label for="project">Info</label>
-                                    </div>
                                 </div>
-                                <hr>           
+                                <hr>
+                                
+                                <h4>Description</h4>
+                                <textarea class="description" name="description"></textarea>
                         </div>
+                        <h4 class="image-article-h4">image</h4>
+                        <input class="article-img" type="file" name="image">
+                        
                 </div>
             </div>
     </form>
