@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-with, inital-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--font familly fonts.google.com-->
     <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Syne+Mono&display=swap" rel="stylesheet">
@@ -17,8 +18,8 @@
     <link rel="stylesheet" href="CSS/base.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/main.css">
-    <link rel="stylesheet" href="CSS/modal-contact-me.css">
     <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/loader.css">
     <!--link rel="stylesheet" href="CSS/responsive-article.css"-->
     <!--link rel="stylesheet" href="CSS/responsive-header.css"-->
 
@@ -27,12 +28,31 @@
     <title>MedyOsef</title>
 </head>
 
-<body>
+<body class="loading">
+    <div class="preload">
+        <div class="loader">
+            <svg viewBox="0 0 80 80">
+                <circle id="test" cx="40" cy="40" r="32"></circle>
+            </svg>
+        </div>
+
+        <div class="loader triangle">
+            <svg viewBox="0 0 86 80">
+                <polygon points="43 8 79 72 7 72"></polygon>
+            </svg>
+        </div>
+
+        <div class="loader">
+            <svg viewBox="0 0 80 80">
+                <rect x="8" y="8" width="64" height="64"></rect>
+            </svg>
+        </div>
+    </div>
     <!--Debut du hearder-->
     <?php include("PHP/Inclusion/hearder.php")?>
     <!--fin-->
 
-    <div class="articles">
+    <!-- <div class="articles"> -->
 
         <div class="articles-container">
 
@@ -138,7 +158,7 @@
             </a>
             
         </div>
-    </div>
+    <!-- </div> -->
     <div class="center">
         <div class="pagination">
         <a href="#">&laquo;</a>
@@ -157,8 +177,18 @@
 
     <!-- Fin -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="JS/app.js"></script>
-    <script src="JS/LightDarkTheme.js"></script>
+    <script src="./JS/app.js"></script>
+    <script src="./JS/LightDarkTheme.js"></script>
+    <script>
+        const preloader = document.querySelector('.preload');
+        const body = document.querySelector('body')
+        window.addEventListener('load', () => {
+            preloader.classList.add('fontdu-out');
+            preloader.style.zIndex = -10;
+            body.className = '';
+
+        })
+    </script>
 </body>
 
 </html>

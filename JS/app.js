@@ -16,7 +16,7 @@ window.addEventListener("scroll", () => {
   }
 });
 
-btnScrollToTop.addEventListener("click", function () {
+btnScrollToTop.addEventListener("click", () => {
   window.scrollTo({
     top: 0,
     left: 0,
@@ -24,9 +24,17 @@ btnScrollToTop.addEventListener("click", function () {
   });
 });
 
-/******************** theme buttonn **************/
-const btntheme = document.getElementById('btntheme');
+/**********  scroll bar progression -***********/
 
-btntheme.addEventListener('change', () =>{
-  // change the theme of the website
-});
+const progressBar = document.querySelector('#progress-bar');
+const articleViewContainer = document.querySelector('.article-view-container');
+const animateProgressBar = () =>{
+      let scrollDistance = -articleViewContainer.getBoundingClientRect().top;
+      let progressWidth = (scrollDistance / (articleViewContainer.getBoundingClientRect().height - document.documentElement.clientHeight)) * 100;
+      let value = Math.floor(progressWidth);
+      progressBar.style.width = value + '%';
+      if (value < 0){
+          progressBar.style.width = '0%';
+      }
+}
+window.addEventListener("scroll", animateProgressBar);

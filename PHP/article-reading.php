@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-with, inital-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--font familly fonts.google.com-->
     <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Syne+Mono&display=swap" rel="stylesheet">
@@ -33,9 +34,9 @@
                     <a href="#" class="header-nav-bar-logo-title"><span>MedyOsef</span></a>
                 </div>
                 <div class="header-nav-bar-menu">
-                    <a href="" class="hearder-navbar-menu-link">Tutoriels</a>
-                    <a href="" class="hearder-navbar-menu-link">CTF</a>
-                    <a href="" class="hearder-navbar-menu-link">Projets</a>
+                    <a href="" class="hearder-navbar-menu-link">‍‍🧭 Tutoriels</a>
+                    <a href="" class="hearder-navbar-menu-link">🏴‍☠️ CTF</a>
+                    <a href="" class="hearder-navbar-menu-link">📂 Projects</a>
                 </div>
                 <div class="header-navbar-toggle">
                     <span class="header-navbar-toggle-icons"></span>
@@ -48,7 +49,7 @@
         </div>
     </div>
 
-    <div class="principale">
+    <div class="articleViewContainer">
         <div class="article-view-container">
             <div class="article-view">
                 <h2 class="article-view-title">Ceci est un article</h2>
@@ -67,6 +68,7 @@
                     (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
                     The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
                 </p>
+                <div id="progress-bar"></div>
             </div>
         </div>
 

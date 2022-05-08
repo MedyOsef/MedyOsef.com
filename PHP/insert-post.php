@@ -7,6 +7,11 @@ if (!$_SESSION['connected']){
         /* ${$key} = $val; */
 
     /* echo $title." ". $dateOfThePublication." ".$li." ".$category." ".$tags; */
+    /*try{
+        $bdd = new PDO('mysql:host=localhost;dbname=medyosef;charset=utf8', 'root', '');
+    } catch (Exception $e) {
+        die('Erreur :'.$e->getMessage());
+    }*/
 ?>
 <!DOCTYPE html>
 <html lang="fr">

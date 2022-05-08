@@ -23,7 +23,7 @@
 /************  light mode *********/
 html {
     --blue-lite-color: #3498db;
-    --green-lite-color: #9aca56;
+    --green-lite-color: var(--gree-dusky-color);
     --gree-dusky-color: #51cf66;
     --white-lite-color: aliceblue;
     --dark-lite-letter-color: #3b3b3b;
@@ -85,7 +85,25 @@ body {
 }
 
 .btn:hover {
-    color: var(--blue-lite-color);
-    border-color: var(--blue-lite-color);
+    /* color: var(--blue-lite-color); */
+    /* border-color: var(--blue-lite-color); */
     background: transparent;
+}
+/********************* scrollbar customizetion **********************/
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--gree-dusky-color);
+  border-radius: 10px;
+}
+
+
+.loading::-webkit-scrollbar {
+  width: 0px;
 }
