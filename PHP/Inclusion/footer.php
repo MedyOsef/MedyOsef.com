@@ -10,7 +10,7 @@ Ce que vous apprendre ici et partout dans votre
 apprentissage de du hacking ne doit en aucun cas
 utiliser à mauvais escient.
 </pre>
-<a class="bug-signale" href="#">Signaler un bug ou une vulnerabilité</a>mlkjoiuygyuhjut
+<a class="bug-signale" href="#">Signaler un bug ou une vulnerabilité</a>
         </div>
 
         <div class="follow-us">

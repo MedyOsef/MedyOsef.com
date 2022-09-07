@@ -23,7 +23,7 @@
     <!--link rel="stylesheet" href="CSS/responsive-article.css"-->
     <!--link rel="stylesheet" href="CSS/responsive-header.css"-->
 
-    <!--link href="https://unpkg.com/tailwindcss@^1.0/dist/base.min.css" rel="stylesheet" /-->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/base.min.css" rel="stylesheet">
 
     <title>MedyOsef</title>
 </head>
@@ -186,7 +186,6 @@
             preloader.classList.add('fontdu-out');
             preloader.style.zIndex = -10;
             body.className = '';
-
         })
     </script>
 </body>
