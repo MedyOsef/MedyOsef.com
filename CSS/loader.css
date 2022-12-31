@@ -33,7 +33,7 @@
   stroke-width: 10px;
   stroke-linejoin: round;
   stroke-linecap: round;
-}*/
+}
 .loader svg polygon {
   stroke-dasharray: 145 76 145 76;
   stroke-dashoffset: 0;

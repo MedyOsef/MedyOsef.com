@@ -1,4 +1,4 @@
 <?php
-header('Location: http://localhost:3000/PHP/admin-login.php');
-exit() 
+header('Location: http://localhost/admin/admin-login.php');
+exit()
 ?>

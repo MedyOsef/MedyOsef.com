@@ -49,133 +49,133 @@
         </div>
     </div>
     <!--Debut du hearder-->
-    <?php include("PHP/Inclusion/hearder.php")?>
-    <!--fin-->
+    <?php include("PHP/Inclusion/hearder.php") ?>
+    <!--fin hearder-->
 
     <!-- <div class="articles"> -->
 
-        <div class="articles-container">
+    <div class="articles-container">
 
-            <a class="article"  href="PHP/article-reading.php">
-                <div class="image">
-                        <img src="assets/Images/tuto-1.jpg" alt="Image titre de l'article">
-                        <ul class="tags">
-                            <li class="tag">pentesting</li>
-                            <li class="tag">kali</li>
-                            <li class="tag">tag</li>
-                        </ul>
+        <a class="article" href="PHP/article-reading.php">
+            <div class="image">
+                <img src="assets/Images/tuto-1.jpg" alt="Image titre de l'article">
+                <ul class="tags">
+                    <li class="tag">pentesting</li>
+                    <li class="tag">kali</li>
+                    <li class="tag">tag</li>
+                </ul>
+            </div>
+            <div class="content">
+                <h2 class="article-title">La productivité</h2>
+                <p>It is a long established fact that a reader will be distracted by the
+                    readable content of a page when looking at its layout. The point of.</p>
+                <div class="article-supplementary-information">
+                    <span class="article-publishing-date">03 Fevrier 2020</span>
+                    <span class="article-reading-time"> 12 minutes</span>
                 </div>
-                <div class="content">
-                    <h2 class="article-title">La productivité</h2>
-                    <p>It is a long established fact that a reader will be distracted by the
-                        readable content of a page when looking at its layout. The point of.</p>
-                    <div class="article-supplementary-information">
-                        <span class="article-publishing-date">03 Fevrier 2020</span>
-                        <span class="article-reading-time"> 12 minutes</span>
-                    </div>
-                </div>
-            </a>
+            </div>
+        </a>
 
-            <a class="article"  href="">
-                <div class="image">
-                    <img src="assets/Images/tuto-2.jpg" alt="Image titre de l'article">
-                    <ul class="tags">
-                        <li class="tag">Kali Vs ParrotOS</li>
-                        <li class="tag">Revers TCP</li>
-                        <li class="tag">lili</li>
-                        <li class="tag">TryHackMe</li>
-                    </ul>
+        <a class="article" href="">
+            <div class="image">
+                <img src="assets/Images/tuto-2.jpg" alt="Image titre de l'article">
+                <ul class="tags">
+                    <li class="tag">Kali Vs ParrotOS</li>
+                    <li class="tag">Revers TCP</li>
+                    <li class="tag">lili</li>
+                    <li class="tag">TryHackMe</li>
+                </ul>
+            </div>
+            <div class="content">
+                <h2 class="article-title">Gestion des systeme</h2>
+                <p>It is a long established fact that a reader will be distracted by the
+                    readable content of a page when looking at its layout. The point of</p>
+                <div class="article-supplementary-information">
+                    <span class="article-publishing-date">03 Fevrier 2020</span>
+                    <span class="article-reading-time"> 12 minutes</span>
                 </div>
-                <div class="content">
-                    <h2 class="article-title">Gestion des systeme</h2>
-                    <p>It is a long established fact that a reader will be distracted by the
-                        readable content of a page when looking at its layout. The point of</p>
-                    <div class="article-supplementary-information">
-                        <span class="article-publishing-date">03 Fevrier 2020</span>
-                        <span class="article-reading-time"> 12 minutes</span>
-                    </div>
-                </div>
-            </a>
+            </div>
+        </a>
 
-            <a class="article"  href="">
-                <div class="image">
-                        <!--img src="https://blog.tryhackme.com/content/images/size/w2000/2019/12/metasploit-basic-commands.jpg" alt="Tesla-model-x"-->
-                        <img src="assets/Images/metasploit-image.jpg" alt="Image titre de l'article">
-                        <ul class="tags">
-                            <li class="tag">JavaScript</li>
-                            <li class="tag">Daffy</li>
-                        </ul>
+        <a class="article" href="">
+            <div class="image">
+                <!--img src="https://blog.tryhackme.com/content/images/size/w2000/2019/12/metasploit-basic-commands.jpg" alt="Tesla-model-x"-->
+                <img src="assets/Images/metasploit-image.jpg" alt="Image titre de l'article">
+                <ul class="tags">
+                    <li class="tag">JavaScript</li>
+                    <li class="tag">Daffy</li>
+                </ul>
+            </div>
+            <div class="content">
+                <h2 class="article-title">Metasploit: Basics</h2>
+                <p>It is a long established fact that a reader will be distracted by the
+                    readable content of a page when looking at its layout. The point of</p>
+                <div class="article-supplementary-information">
+                    <span class="article-publishing-date">03 Fevrier 2020</span>
+                    <span class="article-reading-time"> 12 minutes</span>
                 </div>
-                <div class="content">
-                    <h2 class="article-title">Metasploit: Basics</h2>
-                    <p>It is a long established fact that a reader will be distracted by the
-                        readable content of a page when looking at its layout. The point of</p>
-                    <div class="article-supplementary-information">
-                        <span class="article-publishing-date">03 Fevrier 2020</span>
-                        <span class="article-reading-time"> 12 minutes</span>
-                    </div>
-                </div>
-            </a>
+            </div>
+        </a>
 
-            <a class="article"  href="">
-                <div class="image">
-                    <img src="assets/Images/windows-11-wallpaper-1480x925.jpeg" alt="Image titre de l'article">
-                    <ul class="tags">
-                        <li class="tag">jhon the ripper</li>
-                        <li class="tag">tag</li>
-                        <li class="tag">tag</li>
-                    </ul>
+        <a class="article" href="">
+            <div class="image">
+                <img src="assets/Images/windows-11-wallpaper-1480x925.jpeg" alt="Image titre de l'article">
+                <ul class="tags">
+                    <li class="tag">jhon the ripper</li>
+                    <li class="tag">tag</li>
+                    <li class="tag">tag</li>
+                </ul>
+            </div>
+            <div class="content">
+                <h2 class="article-title">Comment installer Windows 11</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout. The point of</p>
+                <div class="article-supplementary-information">
+                    <span class="article-publishing-date">03 Fevrier 2020</span>
+                    <span class="article-reading-time"> 12 minutes</span>
                 </div>
-                <div class="content">
-                    <h2 class="article-title">Comment installer Windows 11</h2>
-                    <p>It is a long established fact that a reader will be distracted by the readable
-                        content of a page when looking at its layout. The point of</p>
-                    <div class="article-supplementary-information">
-                        <span class="article-publishing-date">03 Fevrier 2020</span>
-                        <span class="article-reading-time"> 12 minutes</span>
-                    </div>
-                </div>
-            </a>
+            </div>
+        </a>
 
-            <a class="article"  href="">
-                <div class="image">
-                        <img src="assets/Images/python-pro.jpg" alt="Image titre de l'article">
-                        <ul class="tags">
-                            <li class="tag">jhon the ripper</li>
-                            <li class="tag">tag</li>
-                            <li class="tag">tag</li>
-                        </ul>
+        <a class="article" href="">
+            <div class="image">
+                <img src="assets/Images/python-pro.jpg" alt="Image titre de l'article">
+                <ul class="tags">
+                    <li class="tag">jhon the ripper</li>
+                    <li class="tag">tag</li>
+                    <li class="tag">tag</li>
+                </ul>
+            </div>
+            <div class="content">
+                <h2 class="article-title">Bien travailler et vite c'est un teste</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout. The point of</p>
+                <div class="article-supplementary-information">
+                    <span class="article-publishing-date">03 Fevrier 2020</span>
+                    <span class="article-reading-time"> 12 minutes</span>
                 </div>
-                <div class="content">
-                    <h2 class="article-title">Bien travailler et vite c'est un teste</h2>
-                    <p>It is a long established fact that a reader will be distracted by the readable
-                        content of a page when looking at its layout. The point of</p>
-                    <div class="article-supplementary-information">
-                        <span class="article-publishing-date">03 Fevrier 2020</span>
-                        <span class="article-reading-time"> 12 minutes</span>
-                    </div>
-                </div>
-            </a>
-            
-        </div>
+            </div>
+        </a>
+
+    </div>
     <!-- </div> -->
     <div class="center">
         <div class="pagination">
-        <a href="#">&laquo;</a>
-        <a href="#">1</a>
-        <a href="#" class="active">2</a>
-        <a href="#">3</a>
-        <a href="#">4</a>
-        <a href="#">5</a>
-        <a href="#">6</a>
-        <a href="#">&raquo;</a>
+            <a href="#">&laquo;</a>
+            <a href="#">1</a>
+            <a href="#" class="active">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">6</a>
+            <a href="#">&raquo;</a>
         </div>
     </div>
 
     <!-- Début de footer-->
     <?php include("PHP/Inclusion/footer.php"); ?>
 
-    <!-- Fin -->
+    <!-- Fin footer -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="./JS/app.js"></script>
     <script src="./JS/LightDarkTheme.js"></script>

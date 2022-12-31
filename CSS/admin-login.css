@@ -43,6 +43,7 @@ h1{
     font-size: 25px;
     color: aliceblue;
 }
+
 button{
     background-color: #51cf66;
     padding: 12px 19px;
@@ -57,13 +58,15 @@ hr{
     margin-bottom: -5px;
     margin-top: 10px;
     width: 200px;
-    color:#51cf66;
+    background-color: #51cf66;
 }
-.alert{
-    color: #F91A47;
+.alert, .alert3{
     font-size: 15px;
     text-align: center;
     margin-top: 8px;
+}
+.alert3{
+    color: #fff;    
 }
 button:hover{
     transform: scale(1.04);
