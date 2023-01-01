@@ -1,5 +1,5 @@
 <?php
-require '../PHP/actions/databaseCall.php';
+require '../PHP/actions/postAction.php';
 if (!$_SESSION['admin_auth']) {
     header('Location: admin-login.php');
 }
@@ -39,26 +39,26 @@ if (!$_SESSION['admin_auth']) {
         <div class="insert-post-contenaire">
             <div class="post-editor">
                 <div class="input-contenaire">
-                    <input class="title" type="text" name="title" placeholder="Titre">
+                    <input class="title" type="text" name="title" placeholder="Titre" required>
 
                 </div>
                 <div class="textarea-contenaire">
-                    <textarea id="editor" class="text-editor" name="" rows="30"></textarea>
+                    <textarea id="editor" class="text-editor" name="content" rows="30" required></textarea>
                 </div>
             </div>
 
             <div class="post-settings">
                 <div class="action-buttons">
                     <a class="action-button see" href="">Aperçu</a>
-                    <input class="action-button send" type="submit" value="Publier">
+                    <input class="action-button send" type="submit" value="publish">
                 </div>
 
                 <div class="settings">
-                    <h3>Paramètres de l'articles</h3>
-                    <input id="tags" type="text" name="tags" placeholder="Libellés">
+                    <h3 align="center">Paramètres de l'articles</h3>
+                    <input id="tags" type="text" name="tags" placeholder="Libellés" required>
 
                     <h4 class="date-title">Date de publication</h4>
-                    <input id="date-of-the-publication" type="date" name="dateOfThePublication">
+                    <input id="date-of-the-publication" type="text" name="dateOfThePublication" placeholder="30 Novembre 2022" required>
                     <h4 class="category-title">Catégorie</h4>
                     <div class="category">
 
@@ -69,19 +69,19 @@ if (!$_SESSION['admin_auth']) {
                             </div>
 
                             <div class="category-left-children">
-                                <input type="radio" id="category-checkbox" name="category" value="tutorial" checked>
+                                <input type="radio" id="category-checkbox" name="category" value="tutorial">
                                 <label for="tutorial">Tutoriel</label>
                             </div>
                         </div>
 
                         <div class="category-right">
                             <div class="category-right-children">
-                                <input type="radio" id="category-checkbox" name="category" value="project" checked>
+                                <input type="radio" id="category-checkbox" name="category" value="project">
                                 <label for="project">Projet</label>
                             </div>
 
                             <div class="category-right-children">
-                                <input type="radio" id="category-checkbox" name="category" value="project" checked>
+                                <input type="radio" id="category-checkbox" name="category" value="info" >
                                 <label for="project">Info</label>
                             </div>
                         </div>
@@ -90,13 +90,13 @@ if (!$_SESSION['admin_auth']) {
                     <hr>
 
                     <h3>URL</h3>
-                    <input id="url" type="text" name="url" placeholder="url...">
+                    <input id="url" type="text" name="articleUrl" placeholder="url..." required>
 
                     <h4>Description</h4>
-                    <textarea class="description" name="description"></textarea>
+                    <textarea class="description" name="description" required></textarea>
                 </div>
                 <h4 class="image-article-h4">image</h4>
-                <input class="article-img" type="file" name="image">
+                <input class="article-img" type="file" name="image" required>
 
             </div>
         </div>

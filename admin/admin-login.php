@@ -1,6 +1,6 @@
 <?php
 require '../PHP/actions/databaseCall.php';
-if ($_SESSION['admin_auth']) {
+if (isset($_SESSION['admin_auth'])) {
     header('Location: admin-panel.php');
 }
 $errorMsg = '';
